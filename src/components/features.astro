@@ -1,0 +1,48 @@
+---
+import { Icon } from "astro-icon";
+import ContentSection from "~/components/content-section.astro";
+import type { FeatureItem } from "~/types";
+
+const features: Array<FeatureItem> = [
+  {
+    title: "Notifications",
+    description:
+      "Get daily quotes, facts, and everything in between. Plus, receive timely social media notifications from the people you chose to follow. It's your one-stop solution for staying connected and informed.",
+    icon: "mdi:bell-ring",
+  },
+  {
+    title: "Moderation",
+    description:
+      "GVO boasts an advanced yet simple moderation feature that enhances your server's security and safety. Benefit from anti-raid, anti-links, anti-phishing, and many other robust protection measures. Keep your community safe and sound with ease using GVO's powerful moderation capabilities!",
+    icon: "mdi:security",
+  },
+  {
+    title: "Community",
+    description:
+      "GVO is an open source project powered by many of contributors making thousands of individual contributions.",
+    icon: "mdi:heart",
+  },
+];
+---
+
+<ContentSection title="Features" id="features">
+  <Fragment slot="lead">
+    GVO comes with <span class="text-primary">enjoyment</span>. It takes the
+    best parts of
+    <span class="text-primary">discord</span>
+    tools and adds its own <span class="text-primary">version</span>.
+  </Fragment>
+  <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    {
+      features.map(({ title, description, icon }) => (
+        <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+          <div class="h-16 w-16 rounded-full border-2 border-current p-3">
+            <Icon name={icon} />
+          </div>
+          <p class="text-center font-extrabold text-xl">{title}</p>
+          <p class="text-center text-offset text-sm">{description}</p>
+        </li>
+      ))
+    }
+  </ul>
+</ContentSection>
