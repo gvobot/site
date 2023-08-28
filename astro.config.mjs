@@ -10,9 +10,8 @@ export default defineConfig({
     "/discord": "https://discord.gg/ryWtHGVUte",
     "/blog": "https://blog.gvobot.app",
     "/github": "https://github.com/gvobot",
-    "/tiktok": "https://www.tiktok.com/@gvobot",
     "/kofi": "https://ko-fi.com/duckodas",
-    "/patreon": "https://patreon.com/DuckoDas",
+    "/paypal": "https://paypal.me/sapphiredevs"
   },
   integrations: [
     tailwind(),
