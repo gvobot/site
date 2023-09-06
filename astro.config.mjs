@@ -10,7 +10,7 @@ export default defineConfig({
     "/discord": "https://discord.gg/ryWtHGVUte",
     "/blog": "https://blog.gvobot.app",
     "/github": "https://github.com/gvobot",
-    "/kofi": "https://ko-fi.com/duckodas",
+    "/kofi": "https://ko-fi.com/gvobot",
     "/paypal": "https://paypal.me/sapphiredevs"
   },
   integrations: [
