@@ -11,7 +11,8 @@ export default defineConfig({
     "/blog": "https://blog.gvobot.app",
     "/github": "https://github.com/gvobot",
     "/kofi": "https://ko-fi.com/gvobot",
-    "/paypal": "https://paypal.me/sapphiredevs"
+    "/paypal": "https://paypal.me/sapphiredevs",
+    "/translate": "https://crowdin.com/project/gvobot"
   },
   integrations: [
     tailwind(),
