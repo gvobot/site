@@ -6,7 +6,7 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   site: "https://gvobot.app/",
   redirects: {
-    "/invite": "https://discord.com/api/oauth2/authorize?client_id=1127781120000397402&permissions=10980017827063&redirect_uri=https%3A%2F%2Fgvobot.app&scope=bot%20applications.commands",
+    "/invite": "https://discord.com/api/oauth2/authorize?client_id=1127781120000397402&permissions=28582941289719&redirect_uri=https%3A%2F%2Fgvobot.app&scope=bot%20applications.commands",
     "/discord": "https://discord.gg/ryWtHGVUte",
     "/blog": "https://blog.gvobot.app",
     "/github": "https://github.com/gvobot",
