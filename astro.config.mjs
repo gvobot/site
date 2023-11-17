@@ -12,7 +12,8 @@ export default defineConfig({
     "/github": "https://github.com/gvobot",
     "/kofi": "https://ko-fi.com/gvobot",
     "/paypal": "https://paypal.me/sapphiredevs",
-    "/translate": "https://crowdin.com/project/gvobot"
+    "/translate": "https://crowdin.com/project/gvobot",
+    "/roundmap": "https://github.com/users/duckodas/projects/1"
   },
   integrations: [
     tailwind(),
